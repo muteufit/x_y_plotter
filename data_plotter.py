@@ -13,7 +13,7 @@ y = df['Y'].tolist()
 # Create the first curve
 plt.plot(x, y)
 
-# Setting imits for the axis
+# Setting imits for the x-axis
 plt.xlim(x[0], x[-1])
 
 # Customize the plot
